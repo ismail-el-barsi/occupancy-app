@@ -190,6 +190,8 @@ export default {
 }
 
 .dashboard {
+  max-width: 300px;
+  margin: auto;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -198,11 +200,18 @@ export default {
 
 .dashboard-content {
   margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 .dashboard-info {
   font-size: 16px;
   color: #333;
+  margin: 0;
+  padding: 5px;
 }
 
 .building-name {
